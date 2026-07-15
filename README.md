@@ -6,21 +6,29 @@ This is a very useful page to see all the papers and associated code for ML/AI i
 Setup instructions for Jupyter notebook at BNL - 
 
 First login with your specific node! 
+```
 (base) kunnar1@ASC6RWCQTQ ~ % ssh -L 8089:localhost:8089 -J kraghav@ssh.sdcc.bnl.gov kraghav@sphnxuser04.sdcc.bnl.gov
+```
 
 Now setup sPHENIX - 
+```
 [kraghav@sphnxuser04 ~]$ source setup_sphenix.csh 
+```
 
 Then I created a new directory called ML_AI_Lehigh and cd into that directory and setup the condo environment! 
 
 Download this environment yaml file from GitHub - 
+```
 [kraghav@sphnxuser04 ML_AI_Lehigh]$ git clone https://github.com/rkunnawa/LehighMLWorkshop2026.git 
-
+```
 Now, lets build the condo environment - 
+```
 [kraghav@sphnxuser04 LehighMLWorkshop2026]$ conda env create --file work_py_ml.yml 
-
+```
 Then lets open a Jupyter notebook with that specific portal that we emphasized - 
+```
 [kraghav@sphnxuser04 LehighMLWorkshop2026]$ jupyter-lab --no-browser --port=8089
+```
 
 It will print out a bunch of stuff - take the link that it points to for the notebook and then open it on a browser on your laptop - NOTE - this is a link SPECIFIC to you! It will not work for others! 
 
