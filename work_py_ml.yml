@@ -1,0 +1,28 @@
+name: work_py_ml
+channels:
+  - conda-forge
+dependencies:
+  - latexcodec
+  - pandas
+  - hdf5
+  - matplotlib
+  - numpy
+  - tensorflow-cpu  
+  - scipy
+  - ipykernel
+  - jupyter_core
+  - jupyterlab
+  - jupyter_client
+  - jupyter-lsp
+  - jupyter_events
+  - jupyter_server
+  - matplotlib-inline
+  - metakernel
+  - nbconvert
+  - notebook
+  - nbformat
+  - keras
+  - pytorch-cpu
+  - scikit-learn
+  - pytorch-tabnet
+  - texlive-core
