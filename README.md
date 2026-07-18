@@ -1,4 +1,4 @@
-Disclaimer - Some of these notebooks were prepared with Claude 4.8 Opus (access via Vanderbilt) 
+Disclaimer - Some of these notebooks were prepared with Claude 4.8 Opus (access via Vanderbilt) and edited by myself to suite our purposes. some of other code were written by myself and checked with the same model.  
 
 The links for reference are always listed for the corresponding papers and GitHub repos where these were taken from.  
 
