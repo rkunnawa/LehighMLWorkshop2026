@@ -2,9 +2,7 @@ name: work_py_ml
 channels:
   - conda-forge
 dependencies:
-  - latexcodec
   - pandas
-  - hdf5
   - matplotlib
   - numpy
   - tensorflow-cpu  
@@ -25,4 +23,3 @@ dependencies:
   - pytorch-cpu
   - scikit-learn
   - pytorch-tabnet
-  - texlive-core
